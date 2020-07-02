@@ -2,7 +2,7 @@ tracktor:
   name: Tracktor++
   # Subfolder name in output/tracker/
   #module_name: MOT17
-  module_name: Peds1_def
+  module_name: Peds1
   desription:
   seed: 12345
   # frcnn or fpn
