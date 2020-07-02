@@ -10,7 +10,7 @@ from os import path as osp
 import shutil
 
 #Tracking without bells and whistles test folder to compute metrics
-root_wo_bnw = "./tracking_wo_bnw/information/test/"
+root_wo_bnw = "./information/test/"
 test_wo_bnw = "./test_wo_bnw/"
 
 if not os.path.exists(test_wo_bnw):

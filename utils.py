@@ -72,7 +72,7 @@ for color in list(my_colors.CSS4_COLORS.keys())[30:]:
     cv2_colors.append(bgr_color)
 
 #Input image
-img = cv2.imread("./data/empty_scene.jpg")
+img = cv2.imread("./tracking_wo_bnw/data/empty_scene.jpg")
 
 #Folders with information about tracked videos
 tracking_results_train = "./tracking_results/train/"
