@@ -102,7 +102,7 @@ def filter_trajectories_speed (file, zones, file_preffix):
     file_output.close()
 
     #Draw only the bounding boxes of the abnormal trajectories
-    '''dataset = Datasets("peds1_test")
+    dataset = Datasets("peds1_test")
     out_dir = "./abnormal_speeds/"
 
     try:
@@ -189,7 +189,7 @@ def filter_trajectories_speed (file, zones, file_preffix):
 
             for i in range(len(img_array)):
                 out.write(img_array[i])
-            out.release()'''
+            out.release()
 
 #-----------------------------------------------------------------------------#
 #Detect abnormal directions
@@ -278,7 +278,7 @@ def filter_trajectories_direction (file, zones, file_preffix):
     file_output.close()
 
     #Draw only the bounding boxes of the abnormal trajectories
-    '''dataset = Datasets("peds1_test")
+    dataset = Datasets("peds1_test")
     out_dir = "./abnormal_directions/"
 
     try:
@@ -366,7 +366,7 @@ def filter_trajectories_direction (file, zones, file_preffix):
 
             for i in range(len(img_array)):
                 out.write(img_array[i])
-            out.release()'''
+            out.release()
 
 #-----------------------------------------------------------------------------#
 # Filter abnormal trajectories according to their speed and direction
@@ -424,7 +424,7 @@ def filter_trajectories_both (file, zones, file_preffix):
     file_output.close()
 
     #Draw only the bounding boxes of the abnormal trajectories
-    '''dataset = Datasets("peds1_test")
+    dataset = Datasets("peds1_test")
     out_dir = "./abnormal_both/"
 
     try:
@@ -512,4 +512,4 @@ def filter_trajectories_both (file, zones, file_preffix):
 
             for i in range(len(img_array)):
                 out.write(img_array[i])
-            out.release()'''
+            out.release()
