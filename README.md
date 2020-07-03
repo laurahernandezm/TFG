@@ -60,8 +60,8 @@ Para generar los mismos resultados mostrados en el trabajo, los pasos a seguir s
     - tracktor
     - .DS_Store
     - .gitignore
-4.  Entrar en el repositorio y descargar tracktor:
-    `cd repositorio_clonado`
+4.  Entrar en el directorio **tracking_wo_bnw** y descargar tracktor:
+    `cd tracking_wo_bnw`
     `pip3 install -e .`
 5.  Indicar en el archivo **/tracking_wo_bnw/experiments/cfgs/tracktor.yaml**, en el parámetro _dataset_ si queremos trackear el conjunto de entrenamiento (dataset: peds1_train) o el de test (dataset: peds1_test).
 6.  Realizar el tracking: `python tracking_wo_bnw/experiments/scripts/test_tracktor.py` 
