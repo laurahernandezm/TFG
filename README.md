@@ -57,11 +57,11 @@ Para generar los mismos resultados mostrados en el trabajo, los pasos a seguir s
 3.  Descargar el siguiente [zip](https://drive.google.com/file/d/1PjTDHht_sftphKLiuxjFCIhN72vS3X_m/view?usp=sharing) necesario para realizar el tracking y descomprimirlo en la carpeta **output** del directorio **tracking_wo_bnw**. La estructura final debe ser la siguiente:
 
 -tracking_wo_bnw
-    - output
-        - faster_rcnn_fpn_training_mot_17
-        - tracktor
-        - .DS_Store
-        - .gitignore
+  - output
+    - faster_rcnn_fpn_training_mot_17
+    - tracktor
+    - .DS_Store
+    - .gitignore
         
 4.  Entrar en el repositorio y descargar tracktor:
     `cd repositorio_clonado`
