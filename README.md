@@ -4,51 +4,51 @@ En este repositorio puede consultarse el código desarrollado para el Trabajo Fi
 
 ## Estructura
 
-### gt
+    ### gt
 
 Este directorio contiene las ground truth de cada vídeo del conjunto de test para realizar el cálculo de las distintas métricas.
 
-### tracking_wo_bnw
+    ### tracking_wo_bnw
 
 En este directorio encontramos la implementación del algoritmo de tracking [_Tracking without bells and whistles_](https://github.com/phil-bergmann/tracking_wo_bnw) con las modificaciones necesarias para usar nuestro dataset propio.
 
-### anomaly_detections.py
+    ### anomaly_detections.py
 
 Este archivo contiene las funciones que se encargan de detectar las trayectorias anormales y dibujar los cuadros delimitadores correspondientes en los vídeos del dataset.
 
-### create_test_folder.py
+    ### create_test_folder.py
 
 Este script construye el directorio con los datos de las trayectorias anómalas detectadas por el algoritmo para compararlos con las ground truth.
 
-### create_tracking_results.py
+    ### create_tracking_results.py
 
 Este script construye el directorio con las trayectorias obtenidas por el algoritmo de tracking.
 
-### metrics.py
+    ### metrics.py
 
 Este script se encarga de computar las métricas tomando como entradas el directorio _gt_ y el directorio creado por _create_test_folder.py_.
 
-### run.py
+    ### run.py
 
 Script de ejecución.
 
-### test.py
+    ### test.py
 
 Este archivo contiene funciones que únicamente se ejecutan con los vídeos de test.
 
-### train.py
+    ### train.py
 
 Este archivo contiene funciones que se ejecutan durante el entrenamiento, para realizar el descubrimiento de zonas.
 
-### utils.py
+    ### utils.py
 
 Este archivo contiene diversas funciones auxiliares, así como variables y constantes globales.
 
-### zones.py
+    ### zones.py
 
 Este archivo contiene funciones que se encargan de actualizar la información sobre las zonas descubiertas durante el entrenamiento.
 
-## Instrucciones para la reproducción de resultados
+    ## Instrucciones para la reproducción de resultados
 
 Para generar los mismos resultados mostrados en el trabajo, los pasos a seguir son los siguientes:
 
