@@ -54,7 +54,13 @@ Para generar los mismos resultados mostrados en el trabajo, los pasos a seguir s
 
 1.  Descargar el contenido del repositorio y descomprimirlo.
 2.  Descargar el [conjunto de datos](https://drive.google.com/file/d/1l1XBHSr_XLlmGJRs_UrvZ0ExcGDDjzKI/view?usp=sharing) y descomprimirlo en la carpeta **data** del directorio **tracking_wo_bnw**.
-3.  Descargar el siguiente [zip](https://drive.google.com/file/d/1PjTDHht_sftphKLiuxjFCIhN72vS3X_m/view?usp=sharing) necesario para realizar el tracking y descomprimirlo en la carpeta **output** del directorio **tracking_wo_bnw**.
+3.  Descargar el siguiente [zip](https://drive.google.com/file/d/1PjTDHht_sftphKLiuxjFCIhN72vS3X_m/view?usp=sharing) necesario para realizar el tracking y descomprimirlo en la carpeta **output** del directorio **tracking_wo_bnw**. La estructura final debe ser la siguiente:
+        tracking_wo_bnw
+        |_ output
+           |_ faster_rcnn_fpn_training_mot_17
+           |_ tracktor
+           |_ .DS_Store
+           |_ .gitignore
 4.  Entrar en el repositorio y descargar tracktor:
     `cd repositorio_clonado`
     `pip3 install -e .`
