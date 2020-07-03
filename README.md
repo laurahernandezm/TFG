@@ -60,7 +60,7 @@ Para generar los mismos resultados mostrados en el trabajo, los pasos a seguir s
     `pip3 install -e .`
 5.  Indicar en el archivo **/tracking_wo_bnw/experiments/cfgs/tracktor.yaml**, en el parámetro _dataset_ si queremos trackear el conjunto de entrenamiento (dataset: peds1_train) o el de test (dataset: peds1_test).
 6.  Realizar el tracking: `python tracking_wo_bnw/experiments/scripts/test_tracktor.py` 
-7.  Ejecutar el script **create_tracking_results.py** para crear la carpeta **tracking_results**, que se usa como entrada en el algoritmo de detección de anomalías.
+7.  Ejecutar el script **create_tracking_results.py** para crear la carpeta **tracking_results**, que se usa como entrada en el algoritmo de detección de anomalías: `python create_tracking_results.py`
 8.  Ejecutar el algoritmo: `python run.py`
-9.  Ejecutar el script **create_test_folder.py** para crear la carpeta **test_wo_bnw**, necesaria para calcular las métricas.
+9.  Ejecutar el script **create_test_folder.py** para crear la carpeta **test_wo_bnw**, necesaria para calcular las métricas: `python create_test_folder.py`
 10. Ejecutar el script **metrics.py**: `python metrics.py ./gt/ ./test_wo_bnw/`
