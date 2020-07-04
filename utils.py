@@ -280,7 +280,7 @@ def grided_trajectories (trajectories, grid, cell_size, snapped_trajectories,
 
     #Draw centroids of the cells containing at least one snapped point
     for snapped_tra in snapped_trajectories:
-        for snapped_point in snapped_tra[1:]:
+        for snapped_point in snapped_tra:
 
             coordinates = (int(snapped_point[1]), int(snapped_point[2]))
             cv2.circle(img, coordinates, 3, (0, 255, 0), -1)
