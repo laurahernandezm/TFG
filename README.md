@@ -1,6 +1,6 @@
 # Trabajo Fin de Grado
 
-En este repositorio puede consultarse el código desarrollado para el Trabajo Fin de Grado.
+En este repositorio puede consultarse el código desarrollado para el Trabajo Fin de Grado. El algoritmo implementado toma como entrada una serie de trayectorias, extraídas con el método de tracking [_Tracking without bells and whistles_](https://github.com/phil-bergmann/tracking_wo_bnw), y aplica clustering sobre ellas para extraer el comportamiento normal y detectar, posteriormente, aquellas que sean anómalas en cuestión de dirección o velocidad.
 
 ## Estructura
 
